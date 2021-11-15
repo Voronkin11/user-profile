@@ -1,3 +1,4 @@
 # user-profile
-#install dependencies:   npm i
-#compilations project:   gulp
+install dependencies:   npm i
+
+run project:   gulp

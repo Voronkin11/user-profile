@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <a href="/" class="logo">
+                    <svg width="50" height="23" viewBox="0 0 50 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M5.07136 1.08828C6.73154 1.08828 8.03514 1.87635 8.98219 3.4525C9.11584 3.62959 9.19504 3.84967 9.19504 4.08815C9.19504 4.67351 8.71793 5.14804 8.12939 5.14804C7.64489 5.14804 7.23592 4.82647 7.10645 4.38622C6.81898 3.93041 6.54341 3.62602 6.27973 3.47304C5.96257 3.27115 5.55344 3.17021 5.05233 3.17021C4.43704 3.17021 3.92642 3.3437 3.52046 3.69069C3.11449 4.03137 2.91151 4.46037 2.91151 4.9777C2.91151 5.69061 3.44433 6.26471 4.50999 6.70003L5.97526 7.29622C7.16778 7.77569 8.03996 8.36084 8.59182 9.05166C9.14367 9.74249 9.4196 10.5894 9.4196 11.5926C9.4196 12.9364 8.96924 14.0467 8.06851 14.9237C7.16143 15.8069 6.03553 16.2485 4.69077 16.2485C3.41579 16.2485 2.36283 15.8731 1.53187 15.1224C0.713602 14.3716 0.202982 13.3149 0 11.9522L0.0200998 11.9478C0.00690496 11.8787 0 11.8074 0 11.7345C0 11.1073 0.511188 10.5989 1.14177 10.5989C1.77235 10.5989 2.28354 11.1073 2.28354 11.7345L2.28349 11.7454C2.3888 12.4509 2.55374 12.9488 2.77831 13.2392C3.23502 13.8701 3.90104 14.1855 4.7764 14.1855C5.46781 14.1855 6.04186 13.9552 6.49857 13.4947C6.95528 13.0341 7.18363 12.4506 7.18363 11.744C7.18363 11.4601 7.14399 11.1998 7.0647 10.9633C6.98541 10.7267 6.86172 10.509 6.69362 10.3103C6.52553 10.1116 6.30828 9.92544 6.04186 9.75195C5.77545 9.57845 5.4583 9.41285 5.09039 9.25512L3.67269 8.6684C1.6619 7.823 0.656518 6.58648 0.656518 4.95878C0.656518 3.86103 1.07833 2.9431 1.92198 2.20495C2.76562 1.4605 3.81541 1.08828 5.07136 1.08828ZM12.7421 22.4697C13.2827 22.4697 13.7378 22.1058 13.8733 21.6108L14.4897 20.1396L21.4272 6.76627H19.0105L16.3654 12.0657L13.53 6.76627H11.0466L15.2141 14.2707L11.8248 20.5779C11.737 20.6875 11.6686 20.8132 11.6249 20.9499L11.5985 20.9991H11.6104C11.584 21.0962 11.5699 21.1984 11.5699 21.3038C11.5699 21.9477 12.0948 22.4697 12.7421 22.4697ZM23.7964 6.76627H25.9467V7.61797C26.6952 6.87983 27.5388 6.51076 28.4776 6.51076C29.556 6.51076 30.3964 6.84828 30.999 7.52334C31.5192 8.09745 31.7793 9.03431 31.7793 10.3339V15.9835H29.6289V10.8355C29.6289 9.92701 29.5021 9.29929 29.2483 8.9523C29.0009 8.599 28.5506 8.42235 27.8972 8.42235C27.1868 8.42235 26.6825 8.65578 26.3844 9.12264C26.0926 9.58319 25.9467 10.3876 25.9467 11.5358V15.9835H23.7964V6.76627ZM37.6023 8.75357V15.9835H35.4615V8.75357H34.548V6.76627H35.4615V3.38787H37.6023V6.76627H39.2674V8.75357H37.6023ZM42.0266 0H44.1675V7.5328C44.9286 6.85144 45.7691 6.51076 46.6889 6.51076C47.7355 6.51076 48.5728 6.84828 49.2008 7.52334C49.7336 8.11007 50 9.04692 50 10.3339V15.9835H47.8592V10.5327C47.8592 9.79453 47.7276 9.25986 47.4643 8.92864C47.2011 8.59742 46.7777 8.43182 46.1941 8.43182C45.4456 8.43182 44.9191 8.66209 44.6147 9.12264C44.3165 9.5895 44.1675 10.3907 44.1675 11.5263V15.9835H42.0266V0Z"
+                            fill="#3E4056" />
+                    </svg>
+                </a>
+            </div>
+            <div class="header__profile">
+                <div class="profile">
+                    <div class="profile__user">
+                        <div class="user">
+                            <span class="user__name">Arthur Wood</span>
+                            <div class="user__img">
+                                <img src="img/user1.jpg" alt="user photo">
+                            </div>
+                            <div class="user__button">
+                                <button class="button-arrow">
+                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 1L5 5L9 1" stroke="#3E4056" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile__actions">
+                        <div class="actions">
+                            <button class="actions__button">
+                                <svg width="14" height="16" viewBox="0 0 14 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <mask id="path-1-inside-1_0_47" fill="white">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M8.64706 14.4C8.64706 15.28 7.90588 16 7 16C6.09412 16 5.35294 15.28 5.35294 14.4H6.64706H7H7.35294H8.64706ZM7 3.51197L6.2133 3.69304C4.69773 4.04187 3.64706 5.33599 3.64706 6.8V11.2V11.6H11.9644L12.3529 11.2L12.7647 11.6L14 12.8V13.6H13.2229H12H11.9532H2.04679H2H0.777143H0V12.8L1.23529 11.6L1.64706 11.2V6.8C1.64706 4.344 3.40118 2.288 5.76471 1.744V1.2C5.76471 0.536 6.31647 0 7 0C7.68353 0 8.23529 0.536 8.23529 1.2V1.744C10.5988 2.288 12.3529 4.344 12.3529 6.8V11.2H10.3529V6.8C10.3529 5.33599 9.30227 4.04187 7.7867 3.69304L7 3.51197Z" />
+                                    </mask>
+                                    <path
+                                        d="M8.64706 14.4H10.6471V12.4H8.64706V14.4ZM5.35294 14.4V12.4H3.35294V14.4H5.35294ZM6.2133 3.69304L6.6619 5.64208H6.6619L6.2133 3.69304ZM7 3.51197L7.4486 1.56293L7 1.45968L6.5514 1.56293L7 3.51197ZM3.64706 11.6H1.64706V13.6H3.64706V11.6ZM11.9644 11.6V13.6H12.8098L13.3989 12.9936L11.9644 11.6ZM12.7647 11.6L11.3711 13.0346L12.7647 11.6ZM14 12.8H16V11.9545L15.3936 11.3654L14 12.8ZM14 13.6V15.6H16V13.6H14ZM0 13.6H-2V15.6H0V13.6ZM0 12.8L-1.39357 11.3654L-2 11.9545V12.8H0ZM1.23529 11.6L-0.158278 10.1654H-0.158278L1.23529 11.6ZM1.64706 11.2L3.04063 12.6346L3.64706 12.0455V11.2H1.64706ZM5.76471 1.744L6.2133 3.69304L7.76471 3.33596V1.744H5.76471ZM8.23529 1.744H6.23529V3.33596L7.78669 3.69304L8.23529 1.744ZM10.3529 11.2H8.35294V13.2H10.3529V11.2ZM7.7867 3.69304L7.3381 5.64208H7.3381L7.7867 3.69304ZM7 18C8.95541 18 10.6471 16.4388 10.6471 14.4H6.64706C6.64706 14.1212 6.85636 14 7 14V18ZM3.35294 14.4C3.35294 16.4388 5.04459 18 7 18V14C7.14364 14 7.35294 14.1212 7.35294 14.4H3.35294ZM6.64706 12.4H5.35294V16.4H6.64706V12.4ZM7 12.4H6.64706V16.4H7V12.4ZM7.35294 12.4H7V16.4H7.35294V12.4ZM8.64706 12.4H7.35294V16.4H8.64706V12.4ZM6.6619 5.64208L7.4486 5.46101L6.5514 1.56293L5.76471 1.744L6.6619 5.64208ZM5.64706 6.8C5.64706 6.32045 6.00193 5.79398 6.6619 5.64208L5.76471 1.744C3.39352 2.28976 1.64706 4.35153 1.64706 6.8H5.64706ZM5.64706 11.2V6.8H1.64706V11.2H5.64706ZM5.64706 11.6V11.2H1.64706V11.6H5.64706ZM11.9644 9.6H3.64706V13.6H11.9644V9.6ZM10.9184 9.80643L10.5298 10.2064L13.3989 12.9936L13.7875 12.5936L10.9184 9.80643ZM14.1583 10.1654L13.7465 9.76544L10.9594 12.6346L11.3711 13.0346L14.1583 10.1654ZM15.3936 11.3654L14.1583 10.1654L11.3711 13.0346L12.6064 14.2346L15.3936 11.3654ZM16 13.6V12.8H12V13.6H16ZM13.2229 15.6H14V11.6H13.2229V15.6ZM12 15.6H13.2229V11.6H12V15.6ZM11.9532 15.6H12V11.6H11.9532V15.6ZM2.04679 15.6H11.9532V11.6H2.04679V15.6ZM2 15.6H2.04679V11.6H2V15.6ZM0.777143 15.6H2V11.6H0.777143V15.6ZM0 15.6H0.777143V11.6H0V15.6ZM-2 12.8V13.6H2V12.8H-2ZM-0.158278 10.1654L-1.39357 11.3654L1.39357 14.2346L2.62887 13.0346L-0.158278 10.1654ZM0.253487 9.76544L-0.158278 10.1654L2.62887 13.0346L3.04063 12.6346L0.253487 9.76544ZM-0.352941 6.8V11.2H3.64706V6.8H-0.352941ZM5.31611 -0.20504C2.10462 0.534128 -0.352941 3.35201 -0.352941 6.8H3.64706C3.64706 5.33599 4.69773 4.04187 6.2133 3.69304L5.31611 -0.20504ZM3.76471 1.2V1.744H7.76471V1.2H3.76471ZM7 -2C5.26695 -2 3.76471 -0.622824 3.76471 1.2H7.76471C7.76471 1.69482 7.36599 2 7 2V-2ZM10.2353 1.2C10.2353 -0.622824 8.73305 -2 7 -2V2C6.63401 2 6.23529 1.69482 6.23529 1.2H10.2353ZM10.2353 1.744V1.2H6.23529V1.744H10.2353ZM14.3529 6.8C14.3529 3.35201 11.8954 0.534128 8.68389 -0.20504L7.78669 3.69304C9.30227 4.04187 10.3529 5.33599 10.3529 6.8H14.3529ZM14.3529 11.2V6.8H10.3529V11.2H14.3529ZM10.3529 13.2H12.3529V9.2H10.3529V13.2ZM8.35294 6.8V11.2H12.3529V6.8H8.35294ZM7.3381 5.64208C7.99807 5.79398 8.35294 6.32045 8.35294 6.8H12.3529C12.3529 4.35153 10.6065 2.28976 8.23529 1.744L7.3381 5.64208ZM6.5514 5.46101L7.3381 5.64208L8.23529 1.744L7.4486 1.56293L6.5514 5.46101Z"
+                                        fill="#3E4056" mask="url(#path-1-inside-1_0_47)" />
+                                </svg>
+                            </button>
+                            <button class="actions__button">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="2" y="5" width="12" height="10" rx="2" stroke="#3E4056" stroke-width="2" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M4.42442 5.47131C5.50562 5.86484 7.47145 5.62744 7.84923 4.58949C8.22702 3.55153 6.87371 2.10607 5.7925 1.71254C4.7113 1.31902 3.52855 1.84143 3.15077 2.87939C2.77298 3.91734 3.34322 5.07779 4.42442 5.47131Z"
+                                        stroke="#3E4056" stroke-width="2" />
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11.5756 5.47131C10.4944 5.86484 8.52855 5.62744 8.15077 4.58949C7.77298 3.55153 9.12629 2.10607 10.2075 1.71254C11.2887 1.31902 12.4714 1.84143 12.8492 2.87939C13.227 3.91734 12.6568 5.07779 11.5756 5.47131Z"
+                                        stroke="#3E4056" stroke-width="2" />
+                                    <rect x="7" y="5" width="2" height="10" fill="#3E4056" />
+                                    <mask id="path-5-inside-1_0_1" fill="white">
+                                        <path
+                                            d="M0 6C0 4.89543 0.895431 4 2 4H14C15.1046 4 16 4.89543 16 6V9C16 9.55228 15.5523 10 15 10H1C0.447715 10 0 9.55228 0 9V6Z" />
+                                    </mask>
+                                    <path
+                                        d="M0 6C0 4.89543 0.895431 4 2 4H14C15.1046 4 16 4.89543 16 6V9C16 9.55228 15.5523 10 15 10H1C0.447715 10 0 9.55228 0 9V6Z"
+                                        fill="white" stroke="#3E4056" stroke-width="4"
+                                        mask="url(#path-5-inside-1_0_1)" />
+                                </svg>
+                            </button>
+                            <button class="actions__button">
+                                <svg width="16" height="13" viewBox="0 0 16 13" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M1.89729 2.65197C1.91717 2.45096 1.84227 2.25228 1.69561 2.11699L0.201681 0.275132V0H4.84034L8.42577 8.04762L11.578 0H16V0.275132L14.7227 1.52851C14.6126 1.61442 14.5579 1.75561 14.5808 1.89536V11.1046C14.5579 11.2444 14.6126 11.3856 14.7227 11.4715L15.9701 12.7249V13H9.69561V12.7249L10.9879 11.4409C11.1148 11.311 11.1148 11.2728 11.1148 11.0741V3.63022L7.52194 12.9694H7.03641L2.85341 3.63022V9.88948C2.81853 10.1526 2.90393 10.4176 3.08497 10.6079L4.76564 12.6943V12.9694H0V12.6943L1.68067 10.6079C1.86039 10.4173 1.94081 10.1506 1.89729 9.88948V2.65197Z"
+                                        fill="#3E3F58" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__navigation">
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a class="navigation__link navigation__link--selected" href="#">feed</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">EXPLORE</a>
+                        </li>
+                        <li class="navigation__item">
+                            <a class="navigation__link" href="#">DISCUSSIONS</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__button-plus">
+                <button class="button-plus">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M10.9091 0H9.09091V9.09091H0V10.9091H9.09091V20H10.9091V10.9091H20V9.09091H10.9091V0Z"
+                            fill="white" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__container">
+            <div class="main__user-details">
+                <div class="user-details">
+                    <div class="profile-details">
+                        <div class="profile-details__avatar">
+                            <img src="img/avatar.jpg" alt="Avatar">
+                        </div>
+                        <div class="profile-details__user-info">
+                            <p class="profile-details__user-name">Benjamin</p>
+                            <p class="profile-details__user-name">Clementine</p>
+                            <p class="profile-details__user-nick">@benclementine</p>
+                            <a class="profile-details__edit-link" href="#">
+                                Edit Profile
+                            </a>
+                        </div>
+                        <div class="user-details__dropdown-menu">
+                            <div class="dropdown-menu">
+                                <div class="dropdown-menu__btn">
+                                    <button class="button-dots" id="dropBtn">
+                                        <svg width="4" height="16" viewBox="0 0 4 16" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <mask id="path-1-inside-1_0_281" fill="white">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M4 2C4 3.10457 3.10457 4 2 4C0.89543 4 0 3.10457 0 2C0 0.89543 0.89543 0 2 0C3.10457 0 4 0.89543 4 2ZM4 8C4 9.10457 3.10457 10 2 10C0.89543 10 0 9.10457 0 8C0 6.89543 0.89543 6 2 6C3.10457 6 4 6.89543 4 8ZM2 16C3.10457 16 4 15.1046 4 14C4 12.8954 3.10457 12 2 12C0.89543 12 0 12.8954 0 14C0 15.1046 0.89543 16 2 16Z" />
+                                            </mask>
+                                            <path
+                                                d="M2 6C4.20914 6 6 4.20914 6 2H2V6ZM-2 2C-2 4.20914 -0.209139 6 2 6V2H-2ZM2 -2C-0.209139 -2 -2 -0.209139 -2 2H2V-2ZM6 2C6 -0.209139 4.20914 -2 2 -2V2H6ZM2 12C4.20914 12 6 10.2091 6 8H2V12ZM-2 8C-2 10.2091 -0.209139 12 2 12V8H-2ZM2 4C-0.209139 4 -2 5.79086 -2 8H2V4ZM6 8C6 5.79086 4.20914 4 2 4V8H6ZM2 14V18C4.20914 18 6 16.2091 6 14H2ZM2 14H6C6 11.7909 4.20914 10 2 10V14ZM2 14V10C-0.209139 10 -2 11.7909 -2 14H2ZM2 14H-2C-2 16.2091 -0.209139 18 2 18V14Z"
+                                                fill="#3E4056" mask="url(#path-1-inside-1_0_281)" />
+                                        </svg>
+                                    </button>
+                                </div>
+                                <ul class="dropdown-menu__list" id="dropList">
+                                    <li class="dropdown-menu__item">
+                                        <a class="dropdown-menu__link" href="#">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect opacity="0.01" width="20" height="20" fill="#C3CADF" />
+                                                <path
+                                                    d="M4 17C2.89543 17 2 16.1046 2 15V3C2 1.89543 2.89543 1 4 1H14C15.1046 1 16 1.89543 16 3V4"
+                                                    stroke="#3E4056" stroke-width="2" />
+                                                <rect x="5" y="4" width="8" height="2" rx="1" fill="#3E4056" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M5 9C5 8.44772 5.44772 8 6 8H10L8 10H6C5.44772 10 5 9.55228 5 9V9Z"
+                                                    fill="#3E4056" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M13.8933 6.92764C14.6743 6.14659 15.9407 6.14659 16.7217 6.92764L19.5501 9.75607C20.3312 10.5371 20.3312 11.8034 19.5501 12.5845L12.6064 19.5282C12.5241 19.6105 12.4156 19.6615 12.2997 19.6724L8.58474 20.0219C7.32474 20.1405 6.27281 19.0737 6.40902 17.8155L6.80325 14.1739C6.81552 14.0605 6.86617 13.9548 6.94679 13.8741L13.8933 6.92764ZM14.6004 9.04896C14.9909 8.65844 15.6241 8.65844 16.0146 9.04896L17.4288 10.4632C17.8193 10.8537 17.8193 11.4869 17.4288 11.8774L16.7217 12.5845L13.8933 9.75607L14.6004 9.04896ZM12.4791 11.1703L8.94404 14.7053L8.53083 16.7702C8.39079 17.47 9.00782 18.087 9.70762 17.9469L11.7725 17.5337L15.3075 13.9987L12.4791 11.1703Z"
+                                                    fill="#3E4056" />
+                                            </svg>
+                                            <span>Report User</span>
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-menu__item">
+                                        <a class="dropdown-menu__link" href="#">
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12.9497 12.9497C10.2161 15.6834 5.78392 15.6834 3.05025 12.9497C0.316583 10.2161 0.316583 5.78392 3.05025 3.05025C5.78392 0.316583 10.2161 0.316583 12.9497 3.05025C15.6834 5.78392 15.6834 10.2161 12.9497 12.9497Z"
+                                                    stroke="#3E4056" stroke-width="2" />
+                                                <path d="M5 11L11 5" stroke="#3E4056" stroke-width="2" />
+                                                <path d="M11 11L5 5" stroke="#3E4056" stroke-width="2" />
+                                            </svg>
+                                            <span>Block User</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="user-followers">
+                        <li class="user-followers__item">
+                            <p class="user-followers__quantity">45</p>
+                            <p>synths</p>
+                        </li>
+                        <li class="user-followers__item">
+                            <p class="user-followers__quantity">110</p>
+                            <p>followers</p>
+                        </li>
+                        <li class="user-followers__item">
+                            <p class="user-followers__quantity">322</p>
+                            <p>following</p>
+                        </li>
+                    </ul>
+                    <div class="user-details__description">
+                        <p>Cryptocurrencies including Ethereum, Ripple, and Litecoin have all plunged between 20 to 30
+                            percent each, according to CoinMarketCap. Here is the latest Ripple price news and live
+                            updates on XRP, bitcoin and Ethereum.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__content-wraper">
+                <form action="" class="privacy-switcher">
+                    <label class="privacy-switcher__label">Public</label>
+                    <label class="privacy-switcher__switcher">
+                        <input type="checkbox" class="privacy-switcher__hide-checkbox" hidden checked>
+                        <i class="privacy-switcher__my-checkbox"></i>
+                    </label>
+                    <label class="privacy-switcher__label">Private</label>
+                </form>
+                <div class="cards-wraper">
+                    <div class="cards-wraper__card">
+                        <div class="card">
+                            <div class="card__content">
+                                <p>New air routes that promise cheap flights in</p>
+                            </div>
+                            <div class="card__footer">
+                                <div class="card__author">
+                                    <span>Gregory Watkins</span>
+                                </div>
+                                <button class="card__button">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-wraper__card">
+                        <div class="card">
+                            <div class="card__content">
+                                <p>New air routes that promise cheap flights in</p>
+                            </div>
+                            <div class="card__footer">
+                                <div class="card__author">
+                                    <span>Gregory Watkins</span>
+                                </div>
+                                <button class="card__button">Share</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-wraper__card">
+                        <div class="card">
+                            <div class="card__header">
+                                <span>Shared to <span class="card__hashtag">#discussionaboutanimgttdds…</span></span>
+                            </div>
+                            <div class="card__content">
+                                <p>New air routes that promise cheap flights in</p>
+                            </div>
+                            <div class="card__footer">
+                                <div class="card__author">
+                                    <span>Gregory Watkins</span>
+                                </div>
+                                <div class="card__statistics">
+                                    <div class="card__statistics-item">
+                                        <svg width="11" height="14" viewBox="0 0 11 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11 7C10.9929 7.70812 10.6514 8.37509 10.0711 8.81411V8.81411L3.96 13.4957V13.4957C3.22814 14.0496 2.23091 14.1563 1.38942 13.7708C0.547939 13.3853 0.00892302 12.5748 0 11.6816V2.31842C0.00892302 1.4252 0.547939 0.614706 1.38942 0.229214C2.23091 -0.156277 3.22814 -0.0495569 3.96 0.504307V0.504307L10.0711 5.18589V5.18589C10.6514 5.62491 10.9929 6.29188 11 7V7Z"
+                                                fill="#3E4056" />
+                                        </svg>
+                                        <span>88</span>
+                                    </div>
+                                    <div class="card__statistics-item">
+                                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8 8.09328C7.17963 9.25452 5.90782 10 4.48 10C2.00576 10 0 7.76142 0 5C0 2.23858 2.00576 0 4.48 0C5.90782 0 7.17963 0.74548 8 1.90672C8.82038 0.74548 10.0922 0 11.52 0C13.9942 0 16 2.23858 16 5C16 7.76142 13.9942 10 11.52 10C10.0922 10 8.82038 9.25452 8 8.09328Z"
+                                                fill="#FB5F8A" />
+                                            <mask id="mask0_0_245" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                                x="0" y="0" width="16" height="10">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 8.09328C7.17963 9.25452 5.90782 10 4.48 10C2.00576 10 0 7.76142 0 5C0 2.23858 2.00576 0 4.48 0C5.90782 0 7.17963 0.74548 8 1.90672C8.82038 0.74548 10.0922 0 11.52 0C13.9942 0 16 2.23858 16 5C16 7.76142 13.9942 10 11.52 10C10.0922 10 8.82038 9.25452 8 8.09328Z"
+                                                    fill="white" />
+                                            </mask>
+                                            <g mask="url(#mask0_0_245)">
+                                                <rect width="16" height="16" fill="#FC719F" />
+                                                <rect width="16" height="16" fill="#ED5267" />
+                                            </g>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8 14C10.7614 14 16 9 16 5C16 5 0 5 0 5C0 9 5.23858 14 8 14Z"
+                                                fill="#FB5F8A" />
+                                            <mask id="mask1_0_245" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                                x="0" y="5" width="16" height="9">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 14C10.7614 14 16 9 16 5C16 5 0 5 0 5C0 9 5.23858 14 8 14Z"
+                                                    fill="white" />
+                                            </mask>
+                                            <g mask="url(#mask1_0_245)">
+                                                <rect width="16" height="16" fill="#FC719F" />
+                                                <rect width="16" height="16" fill="#ED5267" />
+                                            </g>
+                                        </svg>
+                                        <span>24</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards-wraper__card">
+                        <div class="card">
+                            <div class="card__header">
+                                <p>
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M8.58815 4.34081C10.5395 2.38948 13.7082 2.3945 15.6569 4.34315C17.6095 6.29577 17.6074 9.46372 15.6592 11.4119L11.4119 15.6592C9.46056 17.6105 6.29181 17.6055 4.34316 15.6569C2.39054 13.7042 2.39267 10.5363 4.34082 8.58814L8.58815 4.34081ZM10.002 5.75535L5.75536 10.002C4.58473 11.1727 4.5858 13.0711 5.75738 14.2426C6.92657 15.4118 8.82754 15.4151 9.998 14.2447L14.2447 9.99799C15.4153 8.82736 15.4142 6.92894 14.2427 5.75736C13.0735 4.58818 11.1725 4.58489 10.002 5.75535ZM7.8787 5.05026L5.05027 7.87868L6.46448 9.2929L9.29291 6.46447L7.8787 5.05026ZM13.5356 10.7071L10.7071 13.5355L12.1213 14.9498L14.9498 12.1213L13.5356 10.7071ZM10.7136 7.87216C11.1006 7.48524 11.7281 7.48544 12.1213 7.87868C12.5119 8.26921 12.5096 8.90468 12.1279 9.28638L9.28639 12.1278C8.89947 12.5148 8.27194 12.5146 7.8787 12.1213C7.48817 11.7308 7.49048 11.0953 7.87218 10.7136L10.7136 7.87216Z"
+                                            fill="#3E4056" />
+                                        <mask id="mask0_0_160" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="2"
+                                            y="2" width="16" height="16">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8.58815 4.34081C10.5395 2.38948 13.7082 2.3945 15.6569 4.34315C17.6095 6.29577 17.6074 9.46372 15.6592 11.4119L11.4119 15.6592C9.46056 17.6105 6.29181 17.6055 4.34316 15.6569C2.39054 13.7042 2.39267 10.5363 4.34082 8.58814L8.58815 4.34081ZM10.002 5.75535L5.75536 10.002C4.58473 11.1727 4.5858 13.0711 5.75738 14.2426C6.92657 15.4118 8.82754 15.4151 9.998 14.2447L14.2447 9.99799C15.4153 8.82736 15.4142 6.92894 14.2427 5.75736C13.0735 4.58818 11.1725 4.58489 10.002 5.75535ZM7.8787 5.05026L5.05027 7.87868L6.46448 9.2929L9.29291 6.46447L7.8787 5.05026ZM13.5356 10.7071L10.7071 13.5355L12.1213 14.9498L14.9498 12.1213L13.5356 10.7071ZM10.7136 7.87216C11.1006 7.48524 11.7281 7.48544 12.1213 7.87868C12.5119 8.26921 12.5096 8.90468 12.1279 9.28638L9.28639 12.1278C8.89947 12.5148 8.27194 12.5146 7.8787 12.1213C7.48817 11.7308 7.49048 11.0953 7.87218 10.7136L10.7136 7.87216Z"
+                                                fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask0_0_160)">
+                                            <rect x="2" y="2" width="16" height="16" fill="#3E4056" />
+                                        </g>
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.05028 7.87867C5.44081 7.48815 6.07125 7.48543 6.4645 7.87867C6.85502 8.2692 6.85774 8.89964 6.4645 9.29289C6.07397 9.68341 5.44353 9.68613 5.05028 9.29289C4.65976 8.90236 4.65703 8.27192 5.05028 7.87867ZM10.7071 13.5355C11.0977 13.145 11.7281 13.1423 12.1213 13.5355C12.5119 13.9261 12.5146 14.5565 12.1213 14.9497C11.7308 15.3403 11.1004 15.343 10.7071 14.9497C10.3166 14.5592 10.3139 13.9288 10.7071 13.5355ZM13.5356 10.7071C13.9261 10.3166 14.5565 10.3139 14.9498 10.7071C15.3403 11.0976 15.343 11.7281 14.9498 12.1213C14.5593 12.5118 13.9288 12.5146 13.5356 12.1213C13.145 11.7308 13.1423 11.1003 13.5356 10.7071ZM7.87871 5.05025C8.26923 4.65972 8.89968 4.657 9.29292 5.05025C9.68345 5.44077 9.68617 6.07121 9.29292 6.46446C8.9024 6.85498 8.27196 6.85771 7.87871 6.46446C7.48818 6.07394 7.48546 5.44349 7.87871 5.05025Z"
+                                            fill="#3E4056" />
+                                        <mask id="mask1_0_160" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4"
+                                            y="4" width="12" height="12">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M5.05028 7.87867C5.44081 7.48815 6.07125 7.48543 6.4645 7.87867C6.85502 8.2692 6.85774 8.89964 6.4645 9.29289C6.07397 9.68341 5.44353 9.68613 5.05028 9.29289C4.65976 8.90236 4.65703 8.27192 5.05028 7.87867ZM10.7071 13.5355C11.0977 13.145 11.7281 13.1423 12.1213 13.5355C12.5119 13.9261 12.5146 14.5565 12.1213 14.9497C11.7308 15.3403 11.1004 15.343 10.7071 14.9497C10.3166 14.5592 10.3139 13.9288 10.7071 13.5355ZM13.5356 10.7071C13.9261 10.3166 14.5565 10.3139 14.9498 10.7071C15.3403 11.0976 15.343 11.7281 14.9498 12.1213C14.5593 12.5118 13.9288 12.5146 13.5356 12.1213C13.145 11.7308 13.1423 11.1003 13.5356 10.7071ZM7.87871 5.05025C8.26923 4.65972 8.89968 4.657 9.29292 5.05025C9.68345 5.44077 9.68617 6.07121 9.29292 6.46446C8.9024 6.85498 8.27196 6.85771 7.87871 6.46446C7.48818 6.07394 7.48546 5.44349 7.87871 5.05025Z"
+                                                fill="white" />
+                                        </mask>
+                                        <g mask="url(#mask1_0_160)">
+                                            <rect x="2" y="2" width="16" height="16" fill="#3E4056" />
+                                        </g>
+                                    </svg>
+                                    <span>Shared via weblink</span>
+                                </p>
+                            </div>
+                            <div class="card__content">
+                                <p>New air routes that promise cheap flights in</p>
+                            </div>
+                            <div class="card__footer">
+                                <div class="card__author">
+                                    <span>Gregory Watkins</span>
+                                </div>
+                                <div class="card__statistics">
+                                    <div class="card__statistics-item">
+                                        <svg width="11" height="14" viewBox="0 0 11 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11 7C10.9929 7.70812 10.6514 8.37509 10.0711 8.81411V8.81411L3.96 13.4957V13.4957C3.22814 14.0496 2.23091 14.1563 1.38942 13.7708C0.547939 13.3853 0.00892302 12.5748 0 11.6816V2.31842C0.00892302 1.4252 0.547939 0.614706 1.38942 0.229214C2.23091 -0.156277 3.22814 -0.0495569 3.96 0.504307V0.504307L10.0711 5.18589V5.18589C10.6514 5.62491 10.9929 6.29188 11 7V7Z"
+                                                fill="#3E4056" />
+                                        </svg>
+                                        <span>88</span>
+                                    </div>
+                                    <div class="card__statistics-item">
+                                        <svg width="16" height="14" viewBox="0 0 16 14" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8 8.09328C7.17963 9.25452 5.90782 10 4.48 10C2.00576 10 0 7.76142 0 5C0 2.23858 2.00576 0 4.48 0C5.90782 0 7.17963 0.74548 8 1.90672C8.82038 0.74548 10.0922 0 11.52 0C13.9942 0 16 2.23858 16 5C16 7.76142 13.9942 10 11.52 10C10.0922 10 8.82038 9.25452 8 8.09328Z"
+                                                fill="#FB5F8A" />
+                                            <mask id="mask0_0_245" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                                x="0" y="0" width="16" height="10">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 8.09328C7.17963 9.25452 5.90782 10 4.48 10C2.00576 10 0 7.76142 0 5C0 2.23858 2.00576 0 4.48 0C5.90782 0 7.17963 0.74548 8 1.90672C8.82038 0.74548 10.0922 0 11.52 0C13.9942 0 16 2.23858 16 5C16 7.76142 13.9942 10 11.52 10C10.0922 10 8.82038 9.25452 8 8.09328Z"
+                                                    fill="white" />
+                                            </mask>
+                                            <g mask="url(#mask0_0_245)">
+                                                <rect width="16" height="16" fill="#FC719F" />
+                                                <rect width="16" height="16" fill="#ED5267" />
+                                            </g>
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M8 14C10.7614 14 16 9 16 5C16 5 0 5 0 5C0 9 5.23858 14 8 14Z"
+                                                fill="#FB5F8A" />
+                                            <mask id="mask1_0_245" style="mask-type:alpha" maskUnits="userSpaceOnUse"
+                                                x="0" y="5" width="16" height="9">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M8 14C10.7614 14 16 9 16 5C16 5 0 5 0 5C0 9 5.23858 14 8 14Z"
+                                                    fill="white" />
+                                            </mask>
+                                            <g mask="url(#mask1_0_245)">
+                                                <rect width="16" height="16" fill="#FC719F" />
+                                                <rect width="16" height="16" fill="#ED5267" />
+                                            </g>
+                                        </svg>
+                                        <span>24</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
