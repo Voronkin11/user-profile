@@ -1,0 +1,52 @@
+.profile-details {
+    display: flex;
+    margin-bottom: 32px;
+
+    &__avatar {
+        width: 120px;
+        height: 120px;
+        margin-right: 24px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__user-info {
+        margin-right: 24px;
+    }
+
+    &__user-name {
+        font-family: $primary_font;
+        font-size: $xl_font_size;
+        font-weight: 600;
+    }
+
+    &__user-nick {
+        margin-bottom: 16px;
+        padding-top: 8px;
+        font-family: $secondary_font;
+        font-size: $m_font_size;
+    }
+
+    &__edit-link {
+        display: flex;
+        align-content: center;
+        font-family: $secondary_font;
+        font-size: $m_font_size;
+        color: $pink;
+
+        &::before {
+            content: url("../img/edit-icon.svg");
+            width: 20px;
+            height: 20px;
+            margin-right: 8px;
+        }
+    }
+
+    
+}

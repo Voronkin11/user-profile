@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    &::before {
+        box-sizing: border-box;
+    }
+
+    &::after {
+        box-sizing: border-box;
+    }
+}
+
+@import "parts/fonts";
+@import "parts/variables";
+@import "parts/body";
+@import "parts/header";
+@import "parts/logo";
+@import "parts/user";
+@import "parts/button-arrow";
+@import "parts/profile";
+@import "parts/actions";
+@import "parts/button-plus";
+@import "parts/navigation";
+@import "parts/main";
+@import "parts/user-details";
+@import "parts/profile-details";
+@import "parts/dropdown-menu";
+@import "parts/button-dots";
+@import "parts/user-followers";
+@import "parts/privacy-switcher";
+@import "parts/cards-wraper";
+@import "parts/card";
+// @import "parts/dropdown-menu";

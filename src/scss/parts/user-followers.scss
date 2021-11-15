@@ -1,0 +1,22 @@
+.user-followers {
+    display: flex;
+    margin-bottom: 23px;
+    padding: 0;
+    list-style: none;
+    font-family: $secondary_font;
+    font-size: $m_font_size;
+
+    &__item {
+        margin-right: 48px;
+        text-align: center;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__quantity {
+        font-size: $l_font_size;
+        font-weight: 700;
+    }
+}

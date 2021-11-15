@@ -1,0 +1,11 @@
+.button-plus {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    background-image: linear-gradient(135deg, #FF974F 0%, #E32C75 100%);
+    cursor: pointer;
+}

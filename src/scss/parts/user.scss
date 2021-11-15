@@ -1,0 +1,24 @@
+.user {
+    display: flex;
+    align-items: center;
+
+    &__name {
+        margin-right: 20px;
+        letter-spacing: -0.5px;
+    }
+
+    &__img {
+        width: 32px;
+        height: 32px;
+        margin-right: 12px;
+        border-radius: 50%;
+        overflow: hidden;
+
+
+        img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+}
