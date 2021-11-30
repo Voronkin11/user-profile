@@ -15,6 +15,7 @@
         height: 24px;
         background-color: $switcher_bg_color;
         border-radius: 12px;
+        transition: 0.3s;
 
         &::after {
             content: '';
@@ -25,11 +26,14 @@
             height: 18px;
             background-color: $switcher_circle_bg;
             border-radius: 50%;
-            transition: 0.2s;
+            transition: 0.3s;
         }
     }
     
-    &__hide-checkbox:checked + .privacy-switcher__my-checkbox::after {
-        left: 19px;
+    &__hide-checkbox:checked + .privacy-switcher__my-checkbox {
+        background-color: $switcher_bg_color_checked;
+        &::after {
+            left: 19px;
+        }
     }
 }

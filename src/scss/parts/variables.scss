@@ -5,11 +5,13 @@ $light_gray: #ECF1F8;
 $light_gray_opacity: rgba(236, 241, 248, 0.4);
 $dark_gray: #3E4056;
 $pink: #ED5267;
+$green: #008300;
 
 $header_bg_color: $white;
 $body_bg_color: $light_gray_opacity;
 $dropdown_menu_bg_color: $white;
-$switcher_bg_color: $pink;
+$switcher_bg_color: $green;
+$switcher_bg_color_checked: $pink;
 $switcher_circle_bg: $white;
 $card_bg_color: $white;
 $hashtag_bg_color: $light_gray;
