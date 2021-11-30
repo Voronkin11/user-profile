@@ -12,10 +12,10 @@ const del = require('del');
 
 const path = {
     dest: {
-        html: "dest/.",
-        css: "dest/css",
-        js: "dest/js",
-        img: "dest/img",
+        html: "./",
+        css: "./css",
+        js: "./js",
+        img: "./img",
     },
     src: {
         html: "src/*.html",
@@ -29,11 +29,15 @@ const path = {
         js: "src/js/**/*.js",
         img: "src/img/**/*",
     },
-    clean: "./dest/**"
+    clean: {
+        css: "./css/**",
+        js: "./js",
+        img: "./img",
+    }
 }
 
 function clean() {
-    return del(path.clean);
+    return del(path.clean.css, path.clean.js, path.clean.img);
 }
 
 function browserSync() {
